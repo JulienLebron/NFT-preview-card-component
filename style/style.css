@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Outfit";
+    font-size: 18px;
+    background: hsl(217, 54%, 11%);
+}
+
+.card-container {
+    width: 375px;
+    background: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.card-header {
+    height: 300px;
+    background: url(../images/image-equilibrium.jpg) center/cover;
+    border-radius: 15px;
+}
+
+.card-body {
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsla(215, 52%, 70%, 0.251);
+}
+
+.card-body h1 {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.card-body p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.balance {
+    color: hsl(178, 100%, 50%);
+    position: relative;
+}
+
+.balance-eth {
+    padding-left: 18px;
+}
+
+.balance img {
+    position: absolute;
+    top: 3px;
+}
+
+.time-left {
+    color: hsl(215, 51%, 70%);
+    padding-left: 145px;
+    position: relative;
+}
+
+.time-left img {
+    position: absolute;
+    top: 4px;
+    left: 120px;
+}
+
+.card-footer {
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+}
+
+.image-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: url(../images/image-avatar.png) center/cover;
+    position: absolute;
+    top: 10px;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.card-footer p {
+    color: hsl(215, 51%, 70%);
+    padding-left: 60px;
+}
